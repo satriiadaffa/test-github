@@ -1,0 +1,35 @@
+.btn-aksi{
+    width:auto;
+    height:auto;
+    padding: 0px !important;
+    margin:0px 2px;
+    
+}
+.btn-hapus{
+    width:auto;
+    height:auto;
+    padding: 0px !important;
+    margin:0px 2px;
+    
+}
+
+.btn-tambah{
+    width:auto;
+    height:auto;
+    padding: 0px !important;
+    margin:0px 2px;
+    
+}
+
+.buttons{
+    display: flex;
+}
+th{
+    text-align: center !important;
+    vertical-align: middle;
+
+}
+
+.container-page-table{
+    margin: 20px 40px;
+}

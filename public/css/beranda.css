@@ -1,0 +1,103 @@
+.content-container{
+    margin: 20px 80px 20px 350px;
+}
+
+.page-title{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.table-container{
+    height: auto;
+    width: 100%;
+    background-color:#fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.397);
+}
+
+li a{
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+}
+.card-container{
+    height: 250px;
+    font-size: 25px;
+    background-color:#fff;
+    width: 100%;
+    min-width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.397);
+    margin: 0px 0px 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+
+.streched-link{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    width: auto;
+}
+
+.plus-icon{
+    background-color: rgb(206, 44, 44);
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin:-20px -20px 0px 0px;
+    transition: transform 0.3s ease-in-out, width 0.3s ease-in-out; /* Tambahkan transisi lebar */
+}
+.plus-icon:hover {
+    transform: scale(1.1); /* Memperbesar tombol saat dihover */
+}
+
+.plus-icon:active {
+    transform: scale(0.9); /* Merespon saat tombol diaktifkan (diklik) */
+}
+.fa-plus{
+    margin: auto 20px;
+}
+
+#pendaftaran-atk {
+    background-image: url('/image/1.jpg'); /* Ganti 'image/1.jpg' dengan path yang benar ke gambar Anda */
+    background-size: 100%;
+    
+
+}
+
+#request-atk {
+    background-image: url('/image/2.jpg'); /* Ganti 'image/1.jpg' dengan path yang benar ke gambar Anda */
+    background-size: 100%;
+    background-position: center ;
+
+}
+
+#pendaftaran-souvenir {
+    background-image: url('/image/3.jpg'); /* Ganti 'image/1.jpg' dengan path yang benar ke gambar Anda */
+    background-size: 100%;
+    background-position: right ;
+}
+
+#request-souvenir {
+    background-image: url('/image/4.jpg'); /* Ganti 'image/1.jpg' dengan path yang benar ke gambar Anda */
+    background-size: 100%;
+    
+
+}
+
+#reset-season {
+    background-image: url('/image/5.jpg'); /* Ganti 'image/1.jpg' dengan path yang benar ke gambar Anda */
+    background-size: 100%;
+    background-position: center;
+}
+
+#tambah-user {
+    background-image: url('/image/6.jpg'); /* Ganti 'image/1.jpg' dengan path yang benar ke gambar Anda */
+    background-size: 100%;
+    background-position: left bottom;
+}

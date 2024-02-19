@@ -1,0 +1,143 @@
+/* CSS HEX */
+body{
+    --black: #000000ff;
+--misty-rose: #EAD6D6ff;
+--fire-engine-red: #CF171Fff;
+--poppy: #D8494Cff;
+--black-2: #050505ff;
+--barn-red: #780001ff;
+--penn-red: #94080Bff;
+--wenge: #5A4E4Eff;
+--red-cmyk: #EC1D23ff;
+--turkey-red: #A60507ff;
+}
+
+
+.img-login{
+    width: 15vw;
+    margin: 5vh auto;
+}
+
+.login-Submit-Button{
+    width:100%;
+    height: 50px;
+    background-color: #CF171Fff;
+    border: 0px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-Submit-Button:hover{
+    width:100%;
+    height: 50px;
+    background-color: rgb(155, 15, 22);
+    border: 0px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login-Submit-Button:active{
+    width:100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 5px;
+    color: #CF171Fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.card{
+    width: 28vw;
+    height: auto !important;
+    background-color: #F8FBFE;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 0px 30px;
+    padding-bottom: 20px;
+    border: 0px solid #fff;
+    opacity: 0.9;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .group {
+    position: relative;
+  }
+  
+  .form .group label {
+    font-size: 14px;
+    color: rgb(99, 102, 102);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    transition: all .3s ease;
+  }
+  
+  .form .group input,
+  .form .group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+  }
+  
+  .form .group input:placeholder-shown+ label, .form .group textarea:placeholder-shown +label {
+    top: 10px;
+    background-color: transparent;
+  }
+  
+  .form .group input:focus,
+  .form .group textarea:focus {
+    border-color: #CF171Fff;
+  }
+  
+  .form .group input:focus+ label, .form .group textarea:focus +label {
+    top: -10px;
+    left: 10px;
+    background-color: #fff;
+    color: #CF171Fff;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  body{
+    background-image: url('/image/bg_login.jpg');
+    background-size: 100%;
+    background-position: top center; /* Posisikan di tengah secara horizontal dan sedikit ke bawah */
+  }
+
+  .img-login{
+    width: 100%;
+
+  }
+  
+
+  
+  
